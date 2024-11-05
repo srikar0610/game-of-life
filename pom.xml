@@ -16,7 +16,7 @@
     <properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <easyb.version>2.3.4</easyb.version>
+        <easyb.version>2.3.6</easyb.version>
         <cobertura.version>2.6</cobertura.version>
         <!-- A workaround for a bug in PMD -->
         <sourceJdk>1.8</sourceJdk>
@@ -120,7 +120,7 @@
             <plugin>
                 <groupId>org.easyb</groupId>
                 <artifactId>maven-easyb-plugin</artifactId>
-                <version>2.3.4</version>
+                <version>2.3.6</version>
                 <executions>
                     <execution>
                         <goals>
