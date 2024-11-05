@@ -7,10 +7,16 @@
     <packaging>pom</packaging>
     <name>gameoflife</name>
     <url>https://github.com/wakaleo/game-of-life</url>
+    <repositories>
+        <repository>
+            <id>custom-repo</id>
+            <url>https://repo1.maven.org/maven2</url> <!-- Update this URL if you have another repository -->
+        </repository>
+    </repositories>
     <properties>
         <build.number>SNAPSHOT</build.number>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <easyb.version>2.3.6</easyb.version>
+        <easyb.version>2.3.4</easyb.version>
         <cobertura.version>2.6</cobertura.version>
         <!-- A workaround for a bug in PMD -->
         <sourceJdk>1.8</sourceJdk>
@@ -114,7 +120,7 @@
             <plugin>
                 <groupId>org.easyb</groupId>
                 <artifactId>maven-easyb-plugin</artifactId>
-                <version>2.3.6</version>
+                <version>2.3.4</version>
                 <executions>
                     <execution>
                         <goals>
